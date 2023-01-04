@@ -14,7 +14,7 @@ const freemint = async (
   const contract = new ethers.Contract(contractAddress, NFT.abi, signer);
 
   // try {
-  let mintTx = await contract.spawnfreestoners(amount);
+  let mintTx = await contract.spawnfreesamurais(amount);
   let tx = await mintTx.wait();
 
   toast.success("Successfully minted!");
@@ -33,7 +33,7 @@ const mint = async (
   const contract = new ethers.Contract(contractAddress, NFT.abi, signer);
 
   try {
-    let mintTx = await contract.spawnstoners(amount, {
+    let mintTx = await contract.spawnsamurais(amount, {
       value: ethers.utils.parseEther((0.0069 * amount).toString()),
     });
     await mintTx.wait();
