@@ -1,7 +1,7 @@
 {
     "_format": "hh-sol-artifact-1",
-    "contractName": "Stonedgoblins",
-    "sourceName": "contracts/Stonedgoblins.sol",
+    "contractName": "Undefeatedsamurai",
+    "sourceName": "contracts/Undefeatedsamurai.sol",
     "abi": [
         {
             "inputs": [
@@ -185,7 +185,7 @@
         },
         {
             "inputs": [],
-            "name": "almostFreeStonerSupply",
+            "name": "almostFreeSamuraiSupply",
             "outputs": [
                 {
                     "internalType": "uint256",
@@ -249,7 +249,7 @@
         },
         {
             "inputs": [],
-            "name": "freeStonerSupply",
+            "name": "freeSamuraiSupply",
             "outputs": [
                 {
                     "internalType": "uint256",
@@ -281,7 +281,7 @@
         },
         {
             "inputs": [],
-            "name": "getStonersBaseURI",
+            "name": "getSamuraisBaseURI",
             "outputs": [
                 {
                     "internalType": "string",
@@ -331,7 +331,7 @@
         },
         {
             "inputs": [],
-            "name": "maxStonersPerWallet",
+            "name": "maxSamuraisPerWallet",
             "outputs": [
                 {
                     "internalType": "uint256",
@@ -478,7 +478,7 @@
                     "type": "string"
                 }
             ],
-            "name": "setStonersBaseURI",
+            "name": "setSamuraisBaseURI",
             "outputs": [],
             "stateMutability": "nonpayable",
             "type": "function"
@@ -491,7 +491,7 @@
                     "type": "uint256"
                 }
             ],
-            "name": "spawnfreestoners",
+            "name": "spawnfreesamurais",
             "outputs": [],
             "stateMutability": "nonpayable",
             "type": "function"
@@ -504,7 +504,7 @@
                     "type": "uint256"
                 }
             ],
-            "name": "spawnstoners",
+            "name": "spawnsamurais",
             "outputs": [],
             "stateMutability": "payable",
             "type": "function"
@@ -524,7 +524,7 @@
         },
         {
             "inputs": [],
-            "name": "stonersBaseURI",
+            "name": "samuraisBaseURI",
             "outputs": [
                 {
                     "internalType": "string",
